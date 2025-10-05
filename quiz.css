@@ -1,0 +1,140 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100%;
+    background: linear-gradient(to bottom, #14e4da,#1235e3);
+}
+
+.quiz-title {
+    text-align: center;
+    background-color: chocolate;
+    font-size: 28px;
+    padding: 25px;
+    color: aliceblue;
+    animation: drop-anim 4s ease-in-out forwards;
+}
+
+@keyframes drop-anim{
+    from{
+        transform:translateY(-100%)
+    }
+    
+    to{
+        transform:translateY(0%)
+    }
+}
+
+.quiz-container{
+    width: 800px;
+    height: 300px;
+    background-color: tomato;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.pogress-bar-bg{
+    width: 90%;
+    height: 12px;
+    background-color: grey;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.pogress-bar-fill{
+    width: 50%;
+    height: 12px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+.question{
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.drop-down {
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.start-btn {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    color: black;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+
+.start-btn:hover {
+    background-color:cyan ;
+}
+
+.timer{
+    background-color: orange;
+    font-size: 28px;
+    width: 120px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Press Start 2P',cursive;
+    margin-top: 100px;
+    border-radius: 60%;
+    padding: 40px 0px;
+}
+
+.option-btn {
+    display: block;
+    margin: auto;
+    width: 60%;
+    font-size: 14px;
+    font-family: 'Press Start 2P',cursive;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.option-btn:hover {
+    background-color: cyan;
+}
+
+.score-label{
+    color:cyan;
+    font-size: 10px;
+    font-family:'Press Start 2P', cursive;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.feedback-label {
+    color:cyan;
+    font-size: 12px;
+    font-family:'Press Start 2P', cursive;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bgm-dropdown {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    background-color: turquoise;
+}
+
+.music_btm{
+    margin: auto;
+    display: block;
+}
